@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Computing Course</title>
+    <link rel="stylesheet" href="CoursePage.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://img.freepik.com/free-vector/cloud-computing-banner-design-concept_1017-15147.jpg"  class="course-image">
+        <h1 class="course-title">Learn Cloud Computing</h1>
+        <p class="course-description">Cloud computing is a technology that enables users to access computing resources such as servers, storage, databases, and networking over the internet. Instead of maintaining physical infrastructure, businesses and individuals can use cloud services on a pay-as-you-go basis. This provides flexibility, cost efficiency, and scalability, making cloud computing a crucial part of modern IT infrastructure.</p>
+        <p class="course-description">Cloud computing is categorized into different service models: Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS). IaaS providers like AWS, Microsoft Azure, and Google Cloud offer virtualized computing resources. PaaS solutions provide a platform for developers to build applications, while SaaS delivers ready-to-use software such as Google Drive and Microsoft 365.</p>
+        <p class="course-description">One of the key advantages of cloud computing is its ability to support businesses with high availability, disaster recovery, and data security. Cloud providers implement robust security measures, including encryption, identity management, and compliance standards. Additionally, hybrid and multi-cloud strategies allow organizations to optimize their cloud usage across different platforms.</p>
+        <p class="course-description">As technology evolves, cloud computing is integrating with artificial intelligence, big data analytics, and edge computing to enhance efficiency and performance. With growing demand for cloud solutions, professionals skilled in cloud architecture, security, and DevOps have vast career opportunities. Learning cloud computing is essential for businesses and individuals looking to stay competitive in the digital era.</p>
+
+        <div class="syllabus">
+            <h2 class="syllabus-title">Complete Cloud Computing Syllabus</h2>
+            <ul class="syllabus-list">
+                <li class="syllabus-item">Introduction to Cloud Computing: Concepts and Benefits</li>
+                <li class="syllabus-item">Cloud Service Models: IaaS, PaaS, and SaaS</li>
+                <li class="syllabus-item">Cloud Deployment Models: Public, Private, Hybrid, and Multi-Cloud</li>
+                <li class="syllabus-item">Virtualization and Containerization (Docker, Kubernetes)</li>
+                <li class="syllabus-item">Introduction to Leading Cloud Platforms (AWS, Azure, Google Cloud)</li>
+                <li class="syllabus-item">Cloud Storage and Database Management</li>
+                <li class="syllabus-item">Cloud Security, Compliance, and Best Practices</li>
+                <li class="syllabus-item">Serverless Computing and Function as a Service (FaaS)</li>
+                <li class="syllabus-item">Cloud Networking and Load Balancing</li>
+                <li class="syllabus-item">DevOps and CI/CD in Cloud Computing</li>
+
+            </ul>
+        </div>
+        
+        <button id="register-btn" class="btn" onclick="showRegistrationForm()">Register</button>
+        
+        <div id="registration-form">
+            <h3>Register for the Course</h3>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+            <button class="btn" onclick="submitRegistration()">Submit</button>
+        </div>
+        
+        <a href="https://youtube.com/playlist?list=PLV8vIYTIdSnaKSiSGvJf2QquSN4lEzGob&si=cBBD-JFLL0kk5eU-" id="start-course" class="btn">Start Course</a>
+    </div>
+
+    <script src="CoursePage.js"></script>
+</body>
+</html>

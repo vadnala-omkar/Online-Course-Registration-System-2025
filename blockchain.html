@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain Course</title>
+    <link rel="stylesheet" href="CoursePage.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC5l5xETD4SpX3oYnz94siglSgk2lOkG_Y1hpAFoBkUNJAM6HXxMMCBixXIoDBagqtlJE&usqp=CAU" alt="Python Image" class="course-image">
+        <h1 class="course-title">Learn BlockChain</h1>
+        <p class="course-description">Blockchain is a decentralized and distributed ledger technology that enables secure and transparent transactions. Unlike traditional databases, blockchain operates without a central authority, making it resistant to tampering and fraud. Each block in the chain contains a cryptographic hash of the previous block, ensuring data integrity and immutability. This technology is widely used in cryptocurrencies like Bitcoin and Ethereum, but its applications extend far beyond digital currencies.</p>
+        <p class="course-description">One of the key advantages of blockchain is its ability to enhance security and trust in various industries. Through consensus mechanisms such as Proof of Work (PoW) and Proof of Stake (PoS), transactions are verified and recorded in a decentralized manner. This eliminates the need for intermediaries, reducing costs and increasing efficiency. Sectors like finance, healthcare, and supply chain management are leveraging blockchain to improve transparency and data security.</p>
+        <p class="course-description">Smart contracts, a revolutionary feature of blockchain, enable automated and self-executing agreements without the need for third parties. These contracts are coded with predefined conditions and execute transactions when the conditions are met. This innovation is transforming industries by streamlining processes, reducing fraud, and ensuring trust among participants. Platforms like Ethereum have popularized smart contracts, paving the way for decentralized applications (DApps).</p>
+        <p class="course-description">As blockchain technology evolves, new advancements such as Layer 2 scaling solutions and interoperability between different blockchain networks are emerging. Governments and enterprises are exploring blockchain for digital identity verification, secure voting systems, and decentralized finance (DeFi). With its potential to redefine data security and trust, blockchain continues to be a disruptive force shaping the future of technology.</p>
+ 
+        <div class="syllabus">
+            <h2 class="syllabus-title">Complete Blockchain Syllabus</h2>
+            <ul class="syllabus-list">
+                <li class="syllabus-item">Introduction to Blockchain: Fundamentals and History</li>
+                <li class="syllabus-item">Cryptography and Security in Blockchain</li>
+                <li class="syllabus-item">Blockchain Architecture: Blocks, Nodes, and Consensus Mechanisms</li>
+                <li class="syllabus-item">Smart Contracts: Development and Use Cases</li>
+                <li class="syllabus-item">Cryptocurrencies and Tokenomics</li>
+                <li class="syllabus-item">Blockchain Platforms: Bitcoin, Ethereum, Hyperledger</li>
+                <li class="syllabus-item">Decentralized Applications (DApps) and Web3</li>
+                <li class="syllabus-item">Blockchain in Finance: DeFi and NFTs</li>
+                <li class="syllabus-item">Enterprise Blockchain and Real-World Applications</li>
+                <li class="syllabus-item">Future Trends and Career Opportunities in Blockchain</li>
+
+            </ul>
+        </div>
+        
+        <button id="register-btn" class="btn" onclick="showRegistrationForm()">Register</button>
+        
+        <div id="registration-form">
+            <h3>Register for the Course</h3>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+            <button class="btn" onclick="submitRegistration()">Submit</button>
+        </div>
+        
+        <a href="https://youtube.com/playlist?list=PLEiEAq2VkUUKmhU6SO2P73pTdMZnHOsDB&si=ZFlO77kwuRK3CUmf" id="start-course" class="btn">Start Course</a>
+    </div>
+
+    <script src="CoursePage.js"></script>
+</body>
+</html>

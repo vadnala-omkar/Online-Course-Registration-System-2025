@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Course</title>
+    <link rel="stylesheet" href="CoursePage.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://kalyanithub.com/wp-content/uploads/2024/01/devops-taining-image-2.jpg"  class="course-image">
+        <h1 class="course-title">Learn DevOps</h1>
+        <p class="course-description">DevOps is a set of practices that combine software development (Dev) and IT operations (Ops) to improve collaboration, automation, and efficiency in software delivery. It focuses on continuous integration, continuous deployment (CI/CD), and infrastructure as code (IaC) to streamline the development lifecycle. By fostering a culture of collaboration between developers and IT teams, DevOps enhances software quality, deployment speed, and system reliability.</p>
+        <p class="course-description">A key aspect of DevOps is automation, which minimizes manual errors and increases efficiency. Tools like Jenkins, GitHub Actions, and GitLab CI/CD enable automated code integration and deployment. Infrastructure automation with Terraform, Ansible, and Kubernetes helps manage and scale cloud-native applications efficiently. Containerization, using Docker and Kubernetes, ensures consistency across different environments.</p>
+        <p class="course-description">Monitoring and security are essential components of DevOps. Continuous monitoring with tools like Prometheus, Grafana, and ELK Stack helps detect performance issues in real time. DevSecOps integrates security practices into the DevOps pipeline, ensuring secure code deployments and compliance with industry standards. Logging, alerting, and incident management are crucial for maintaining system stability.</p>
+        <p class="course-description">As cloud computing and microservices architecture become more popular, DevOps adoption continues to grow across industries. Companies leverage DevOps to enhance agility, reduce downtime, and improve customer satisfaction. With increasing demand for DevOps engineers, professionals skilled in cloud platforms, automation tools, and CI/CD pipelines have promising career opportunities in the tech industry.</p>
+
+        <div class="syllabus">
+            <h2 class="syllabus-title">Complete DevOps Syllabus</h2>
+            <ul class="syllabus-list">
+                <li class="syllabus-item">Introduction to DevOps: Principles and Benefits</li>
+                <li class="syllabus-item">Version Control with Git and GitHub</li>
+                <li class="syllabus-item">Continuous Integration and Continuous Deployment (CI/CD)</li>
+                <li class="syllabus-item">Containerization with Docker and Kubernetes</li>
+                <li class="syllabus-item">Infrastructure as Code (IaC) with Terraform and Ansible</li>
+                <li class="syllabus-item">Monitoring and Logging with Prometheus, Grafana, and ELK Stack</li>
+                <li class="syllabus-item">Cloud Platforms and DevOps (AWS, Azure, Google Cloud)</li>
+                <li class="syllabus-item">DevSecOps: Security in DevOps</li>
+                <li class="syllabus-item">Microservices and Serverless Architecture</li>
+                <li class="syllabus-item">Best Practices and Career Opportunities in DevOps</li>
+
+            </ul>
+        </div>
+        
+        <button id="register-btn" class="btn" onclick="showRegistrationForm()">Register</button>
+        
+        <div id="registration-form">
+            <h3>Register for the Course</h3>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+            <button class="btn" onclick="submitRegistration()">Submit</button>
+        </div>
+        
+        <a href="https://youtube.com/playlist?list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak&si=9MYMQHvq_MELXAP7" id="start-course" class="btn">Start Course</a>
+    </div>
+
+    <script src="CoursePage.js"></script>
+</body>
+</html>

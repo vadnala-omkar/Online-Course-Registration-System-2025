@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI/UX Course</title>
+    <link rel="stylesheet" href="CoursePage.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://www.creativeitinstitute.com/images/course/course_1662637290.jpg"  class="course-image">
+        <h1 class="course-title">Learn UI/UX</h1>
+        <p class="course-description">UI/UX design plays a crucial role in creating user-friendly and visually appealing digital experiences. UI (User Interface) design focuses on the look and feel of a product, including colors, typography, and layout, while UX (User Experience) design ensures usability, accessibility, and user satisfaction. Together, UI and UX help in designing seamless interactions that enhance user engagement.</p>
+        <p class="course-description">The UI design process involves wireframing, prototyping, and visual design using tools like Figma, Adobe XD, and Sketch. Designers work on creating intuitive interfaces that align with brand identity and user expectations. Components such as buttons, navigation bars, and animations contribute to a product’s aesthetic appeal and functionality.</p>
+        <p class="course-description">UX design, on the other hand, focuses on research, user psychology, and behavior analysis. UX designers conduct usability testing, create user personas, and analyze user journeys to optimize product design. Techniques like design thinking and A/B testing help in making data-driven decisions to improve user experience.</p>
+        <p class="course-description">With the increasing demand for digital products, UI/UX design is essential in web and mobile application development. Companies prioritize user-centric designs to enhance customer satisfaction and business success. Aspiring UI/UX designers can build a strong career by mastering design principles, user research, and prototyping tools.</p>
+
+        <div class="syllabus">
+            <h2 class="syllabus-title">Complete UI/UX Syllabus</h2>
+            <ul class="syllabus-list">
+                <li class="syllabus-item">Introduction to UI/UX Design: Principles and Importance</li>
+                <li class="syllabus-item">User Research and Persona Development</li>
+                <li class="syllabus-item">Wireframing and Prototyping</li>
+                <li class="syllabus-item">Visual Design: Typography, Colors, and Layout</li>
+                <li class="syllabus-item">Design Tools: Figma, Adobe XD, and Sketch</li>
+                <li class="syllabus-item">Interaction Design and Micro-animations</li>
+                <li class="syllabus-item">Usability Testing and User Feedback Analysis</li>
+                <li class="syllabus-item">Accessibility and Inclusive Design</li>
+                <li class="syllabus-item">Design Thinking and Problem Solving</li>
+                <li class="syllabus-item">Career Path and Portfolio Building in UI/UX Design</li>
+
+            </ul>
+        </div>
+        
+        <button id="register-btn" class="btn" onclick="showRegistrationForm()">Register</button>
+        
+        <div id="registration-form">
+            <h3>Register for the Course</h3>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+            <button class="btn" onclick="submitRegistration()">Submit</button>
+        </div>
+        
+        <a href="https://youtube.com/playlist?list=PLjiHFwhbHYlHSpAflJwjsKAyMaMhASm0F&si=d8U8530J9AS9N19Z" id="start-course" class="btn">Start Course</a>
+    </div>
+
+    <script src="CoursePage.js"></script>
+</body>
+</html>

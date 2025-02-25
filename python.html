@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Course</title>
+    <link rel="stylesheet" href="CoursePage.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://miro.medium.com/v2/resize:fit:443/1*68ArONqEoFMpdeB-dAJsCw.jpeg" alt="Python Image" class="course-image">
+        <h1 class="course-title">Learn Python Programming</h1>
+        <p class="course-description">Python is a high-level, interpreted programming language known for its simplicity and readability. It is widely used in web development, data science, artificial intelligence, and automation.</p>
+        <p class="course-description">With a simple syntax similar to English, Python is easy to learn for beginners and powerful enough for advanced developers. Its extensive libraries and frameworks make it a go-to choice for various applications.</p>
+        <p class="course-description">Python supports multiple programming paradigms, including procedural, object-oriented, and functional programming. This versatility allows developers to build a wide range of applications, from simple scripts to complex machine learning models.</p>
+        <p class="course-description">Due to its widespread adoption, Python has a strong community and vast resources for learning and problem-solving. Whether you're a beginner or an experienced programmer, Python provides opportunities to grow and innovate.</p>
+        
+        <div class="syllabus">
+            <h2 class="syllabus-title">Complete Python Syllabus</h2>
+            <ul class="syllabus-list">
+                <li class="syllabus-item">Introduction to Python and Installation</li>
+                <li class="syllabus-item">Python Basics: Variables, Data Types, and Operators</li>
+                <li class="syllabus-item">Control Flow: Conditional Statements and Loops</li>
+                <li class="syllabus-item">Functions and Modules</li>
+                <li class="syllabus-item">Object-Oriented Programming (OOP) in Python</li>
+                <li class="syllabus-item">File Handling and Exception Handling</li>
+                <li class="syllabus-item">Data Structures: Lists, Tuples, Dictionaries, and Sets</li>
+                <li class="syllabus-item">Working with Libraries: NumPy, Pandas, Matplotlib</li>
+                <li class="syllabus-item">Web Development with Flask/Django</li>
+                <li class="syllabus-item">Introduction to Machine Learning with Python</li>
+            </ul>
+        </div>
+        
+        <button id="register-btn" class="btn" onclick="showRegistrationForm()">Register</button>
+        
+        <div id="registration-form">
+            <h3>Register for the Course</h3>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+            <button class="btn" onclick="submitRegistration()">Submit</button>
+        </div>
+        
+        <a href="https://youtube.com/playlist?list=PLu0W_9lII9agwh1XjRt242xIpHhPT2llg&si=bApq7AcrW6mYk0CR" id="start-course" class="btn">Start Course</a>
+    </div>
+
+    <script src="CoursePage.js"></script>
+</body>
+</html>

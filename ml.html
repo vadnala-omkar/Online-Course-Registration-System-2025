@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning Course</title>
+    <link rel="stylesheet" href="CoursePage.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://www.interviewbit.com/blog/wp-content/uploads/2022/03/Machine-Learning-Courses-2048x1000.png"  class="course-image">
+        <h1 class="course-title">Learn Machine Learning</h1>
+        <p class="course-description">Machine Learning (ML) is a branch of artificial intelligence that enables computers to learn from data and make decisions without explicit programming. It involves training models using large datasets to recognize patterns, classify information, and make predictions. ML is widely used in various fields, including healthcare, finance, e-commerce, and autonomous systems.</p>
+        <p class="course-description">The core concepts of machine learning include supervised, unsupervised, and reinforcement learning. In supervised learning, models are trained on labeled data, whereas unsupervised learning identifies patterns in unlabeled data. Reinforcement learning, on the other hand, involves training an agent to make decisions through trial and error, commonly used in robotics and gaming.</p>
+        <p class="course-description">Popular ML algorithms include regression, decision trees, support vector machines (SVM), neural networks, and deep learning models. Frameworks like TensorFlow, PyTorch, and Scikit-learn provide powerful tools for building and deploying ML models. Feature engineering, model evaluation, and hyperparameter tuning play a crucial role in improving accuracy and performance.</p>
+        <p class="course-description">With the increasing demand for intelligent automation, machine learning is transforming industries by enabling predictive analytics, recommendation systems, and natural language processing. As ML continues to evolve with advancements in deep learning and generative AI, professionals skilled in data science and ML engineering have vast career opportunities in the tech industry.</p>
+
+        <div class="syllabus">
+            <h2 class="syllabus-title">Complete Machine Learning Syllabus</h2>
+            <ul class="syllabus-list">
+                <li class="syllabus-item">Introduction to Machine Learning: Concepts and Applications</li>
+                <li class="syllabus-item">Mathematics for Machine Learning (Linear Algebra, Probability, Statistics)</li>
+                <li class="syllabus-item">Supervised Learning: Regression and Classification</li>
+                <li class="syllabus-item">Unsupervised Learning: Clustering and Dimensionality Reduction</li>
+                <li class="syllabus-item">Neural Networks and Deep Learning</li>
+                <li class="syllabus-item">Natural Language Processing (NLP) and Computer Vision</li>
+                <li class="syllabus-item">Model Evaluation, Overfitting, and Hyperparameter Tuning</li>
+                <li class="syllabus-item">Working with Machine Learning Frameworks (TensorFlow, PyTorch, Scikit-learn)</li>
+                <li class="syllabus-item">Deployment of ML Models and MLOps</li>
+                <li class="syllabus-item">Ethics, Bias, and Future Trends in Machine Learning</li>
+
+            </ul>
+        </div>
+        
+        <button id="register-btn" class="btn" onclick="showRegistrationForm()">Register</button>
+        
+        <div id="registration-form">
+            <h3>Register for the Course</h3>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+            <button class="btn" onclick="submitRegistration()">Submit</button>
+        </div>
+        
+        <a href="https://youtube.com/playlist?list=PLxCzCOWd7aiEXg5BV10k9THtjnS48yI-T&si=rciiUXtsAXhqrtvP" id="start-course" class="btn">Start Course</a>
+    </div>
+
+    <script src="CoursePage.js"></script>
+</body>
+</html>

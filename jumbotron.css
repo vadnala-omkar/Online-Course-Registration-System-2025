@@ -1,0 +1,71 @@
+
+.jumbotron{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.company-name {
+    position: absolute;
+    font-family: "Playfair", serif;
+    font-size: 8rem;
+    color: #90e0ef;
+    text-transform: uppercase;
+    filter: blur(4px);
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    z-index: -1;
+    transition: all 1.0s ease-in-out;
+}
+.company-name:hover {
+    filter: blur(2px);
+    transform: scale(1.05);
+}
+.main-content {
+    text-align: center;
+}
+.main-header:hover{
+            transition: all 0.3s ease-in-out;
+
+}
+.main-header h1 {
+    color: #333;
+    transition: all 0.3s ease-in-out;
+}
+
+.course-description {
+    margin: 10px 0;
+    color: #555;
+}
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+.cta-button:hover {
+    background: #90e0ef;
+}
+
+@media (max-width: 768px) {
+    .company-name {
+        font-size: 4rem;
+    }
+    .main-header h1 {
+        font-size: 1.5rem;
+    }
+    .course-description {
+        font-size: 0.9rem;
+    }
+    .cta-button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}

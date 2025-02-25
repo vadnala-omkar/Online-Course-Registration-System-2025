@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Systems Course</title>
+    <link rel="stylesheet" href="CoursePage.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://learn.viblo.asia/uploads/e/3/e371b821-3bc8-47bb-9dcc-3dbb57cd2a1e.jpg"  class="course-image">
+        <h1 class="course-title">Learn Embedded Systems</h1>
+        <p class="course-description">Embedded systems are specialized computing systems designed to perform dedicated functions within a larger system. They consist of hardware and software components optimized for efficiency, reliability, and real-time processing. Embedded systems are widely used in consumer electronics, automotive applications, industrial automation, healthcare devices, and IoT applications.</p>
+        <p class="course-description">The architecture of an embedded system typically includes a microcontroller or microprocessor, memory, input/output interfaces, and embedded software. Microcontrollers like ARM, AVR, and PIC are commonly used due to their low power consumption and high performance. Real-time operating systems (RTOS) such as FreeRTOS and VxWorks enable multitasking and precise control over system execution.</p>
+        <p class="course-description">Embedded system design involves hardware-software co-design, firmware development, and real-time programming. Engineers use programming languages like C, C++, and Python for embedded software development. Interfacing with sensors, actuators, and communication modules (UART, SPI, I2C) is crucial for building functional embedded applications.</p>
+        <p class="course-description">With the rapid advancement of IoT, AI, and automation, embedded systems play a crucial role in smart devices, robotics, and wearable technology. The demand for skilled embedded engineers is growing across industries, making it a promising field for those interested in hardware programming, system design, and real-time computing.</p>
+
+        <div class="syllabus">
+            <h2 class="syllabus-title">Complete Embedded Systems Syllabus</h2>
+            <ul class="syllabus-list">
+                <li class="syllabus-item">Introduction to Embedded Systems: Concepts and Applications</li>
+                <li class="syllabus-item">Microcontrollers and Microprocessors: Architecture and Programming</li>
+                <li class="syllabus-item">Embedded C and C++ Programming</li>
+                <li class="syllabus-item">Real-Time Operating Systems (RTOS) and Scheduling</li>
+                <li class="syllabus-item">Peripheral Interfacing: Sensors, Actuators, and Displays</li>
+                <li class="syllabus-item">Communication Protocols: UART, SPI, I2C, CAN</li>
+                <li class="syllabus-item">Power Management and Low-Power Embedded Systems</li>
+                <li class="syllabus-item">Embedded Linux and IoT Device Development</li>
+                <li class="syllabus-item">Debugging, Testing, and Performance Optimization</li>
+                <li class="syllabus-item">Advanced Topics: AI in Embedded Systems and Edge Computing</li>
+
+            </ul>
+        </div>
+        
+        <button id="register-btn" class="btn" onclick="showRegistrationForm()">Register</button>
+        
+        <div id="registration-form">
+            <h3>Register for the Course</h3>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+            <button class="btn" onclick="submitRegistration()">Submit</button>
+        </div>
+        
+        <a href="https://youtube.com/playlist?list=PL3S0BQ4NyDr4DL1DQoMD2ZxZTDmcktAjX&si=40dAlAtcYyy_CsQ5" id="start-course" class="btn">Start Course</a>
+    </div>
+
+    <script src="CoursePage.js"></script>
+</body>
+</html>

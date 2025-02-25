@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webDevekopment Course</title>
+    <link rel="stylesheet" href="CoursePage.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://www.creativeitinstitute.com/images/course/course_1663052056.jpg" alt="Python Image" class="course-image">
+        <h1 class="course-title">Learn Web Development</h1>
+        <p class="course-description">Web development is the process of building and maintaining websites and web applications. It involves front-end development, which focuses on user interface and experience, and back-end development, which handles server-side logic and database interactions. Using technologies like HTML, CSS, JavaScript, and frameworks such as React and Angular, developers create responsive and dynamic websites that enhance user engagement.</p>
+        <p class="course-description">The back-end of web development ensures that websites function smoothly by managing data and server-side operations. Developers use programming languages like Python, PHP, Node.js, and databases such as MySQL and MongoDB to store and retrieve information efficiently. API integration, authentication, and security measures play a crucial role in creating robust and scalable web applications.</p>
+        <p class="course-description">Full-stack development combines both front-end and back-end skills, enabling developers to handle the entire web development process. Frameworks like MERN (MongoDB, Express.js, React, Node.js) and LAMP (Linux, Apache, MySQL, PHP) provide structured approaches for building modern web applications. With the rise of cloud computing and DevOps, deploying and maintaining web applications has become more efficient and scalable.</p>
+        <p class="course-description">As technology evolves, web development continues to advance with innovations such as Progressive Web Apps (PWAs), headless CMS, and AI-driven websites. The demand for skilled web developers remains high, offering career opportunities in front-end, back-end, and full-stack development. Understanding the latest tools, frameworks, and security best practices is essential for building high-performance web applications.</p>
+
+        <div class="syllabus">
+            <h2 class="syllabus-title">Complete Web Development Syllabus</h2>
+            <ul class="syllabus-list">
+                <li class="syllabus-item">Introduction to Web Development: Basics and Tools</li>
+                <li class="syllabus-item">HTML, CSS, and Responsive Web Design</li>
+                <li class="syllabus-item">JavaScript and Modern Front-End Frameworks (React, Angular, Vue)</li>
+                <li class="syllabus-item">Version Control with Git and GitHub</li>
+                <li class="syllabus-item">Backend Development: Node.js, Express, and Databases</li>
+                <li class="syllabus-item">RESTful APIs and GraphQL</li>
+                <li class="syllabus-item">Authentication and Web Security Best Practices</li>
+                <li class="syllabus-item">Deployment and Hosting (AWS, Firebase, Vercel, Netlify)</li>
+                <li class="syllabus-item">Performance Optimization and SEO</li>
+                <li class="syllabus-item">Project Development and Industry Best Practices</li>
+
+            </ul>
+        </div>
+        
+        <button id="register-btn" class="btn" onclick="showRegistrationForm()">Register</button>
+        
+        <div id="registration-form">
+            <h3>Register for the Course</h3>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+            <button class="btn" onclick="submitRegistration()">Submit</button>
+        </div>
+        
+        <a href="https://youtube.com/playlist?list=PLDzeHZWIZsTo0wSBcg4-NMIbC0L8evLrD&si=UJ-sjYIyQHHIuRiB" id="start-course" class="btn">Start Course</a>
+    </div>
+
+    <script src="CoursePage.js"></script>
+</body>
+</html>

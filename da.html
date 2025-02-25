@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analytics Course</title>
+    <link rel="stylesheet" href="CoursePage.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://i.ytimg.com/vi/fWE93St-RaQ/maxresdefault.jpg"  class="course-image">
+        <h1 class="course-title">Learn Data Analytics</h1>
+        <p class="course-description">Data analytics is the process of analyzing raw data to extract meaningful insights, trends, and patterns that aid decision-making. It involves collecting, cleaning, processing, and visualizing data using statistical and computational techniques. Businesses across industries leverage data analytics to enhance efficiency, improve customer experiences, and drive growth.</p>
+        <p class="course-description">There are four key types of data analytics: descriptive, diagnostic, predictive, and prescriptive analytics. Descriptive analytics summarizes past data, while diagnostic analytics helps identify causes behind trends. Predictive analytics uses machine learning models to forecast future outcomes, and prescriptive analytics provides actionable recommendations based on data insights.</p>
+        <p class="course-description">Data analysts use various tools and programming languages, including SQL for database management, Python and R for statistical analysis, and Power BI or Tableau for data visualization. Techniques like data wrangling, exploratory data analysis (EDA), and regression modeling help transform raw data into actionable insights for organizations.</p>
+        <p class="course-description">With the growing importance of data-driven decision-making, data analytics is a high-demand skill across sectors like finance, healthcare, e-commerce, and marketing. Professionals skilled in data handling, visualization, and analytics tools can pursue careers as data analysts, business analysts, and data scientists, contributing to impactful business solutions.</p>
+
+        <div class="syllabus">
+            <h2 class="syllabus-title">Complete Data Analytics Syllabus</h2>
+            <ul class="syllabus-list">
+                <li class="syllabus-item">Introduction to Data Analytics: Concepts and Applications</li>
+                <li class="syllabus-item">Data Collection and Preprocessing</li>
+                <li class="syllabus-item">Exploratory Data Analysis (EDA) and Data Cleaning</li>
+                <li class="syllabus-item">Statistics for Data Analytics</li>
+                <li class="syllabus-item">Data Visualization with Tableau and Power BI</li>
+                <li class="syllabus-item">SQL for Data Analytics and Database Management</li>
+                <li class="syllabus-item">Python and R for Data Analysis</li>
+                <li class="syllabus-item">Predictive Analytics and Machine Learning Basics</li>
+                <li class="syllabus-item">Big Data Analytics and Cloud Technologies</li>
+                <li class="syllabus-item">Business Intelligence and Data-Driven Decision Making</li>
+
+            </ul>
+        </div>
+        
+        <button id="register-btn" class="btn" onclick="showRegistrationForm()">Register</button>
+        
+        <div id="registration-form">
+            <h3>Register for the Course</h3>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+            <button class="btn" onclick="submitRegistration()">Submit</button>
+        </div>
+        
+        <a href="https://youtube.com/playlist?list=PLjVLYmrlmjGdRs1sGqRrTE-EMraLclJga&si=XhcZk0ZGuhRlUIbW" id="start-course" class="btn">Start Course</a>
+    </div>
+
+    <script src="CoursePage.js"></script>
+</body>
+</html>

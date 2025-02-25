@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course Registration System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jumbotron.css">
+    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="footor.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Jacquard+12&family=Libre+Barcode+39+Extended+Text&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">OPN</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#about">About</a></li>
+            <li id="loginLink"><a href="#" onclick="openModal()">Login</a></li>
+            <li id="logoutLink" style="display: none;"><a href="#" onclick="logout()">Logout</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </nav>
+
+    <div class="jumbotron" id="home">
+        <div class="company-name">OPN</div>
+            <div class="main-content">
+                <div class="main-header">
+                    <h1>Welcome to Online Course Registration System</h1>
+            </div>
+                <p class="course-description">Join our platform to explore a variety of courses and enhance your skills. Register now to start learning today!</p>
+                <a href="#" class="cta-button">Get Started</a>
+        </div>
+
+    </div>
+
+<div id="courses" > 
+    <h1 class="course-text">Courses</h1>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center;  align-items: center;">
+        <div class="course-card" id="pythonCard">
+            <img src="https://miro.medium.com/v2/resize:fit:443/1*68ArONqEoFMpdeB-dAJsCw.jpeg" alt="Python Course Image">
+            <h3>Python</h3>
+            <p>Learn Python programming from scratch.</p>
+            <button onclick="window.location.href='Python.html'" class="register-btn">Register</button>
+        </div>
+    
+        <div class="course-card" id="cyberSecurityCard">
+            <img src="https://i.ytimg.com/vi/z5nc9MDbvkw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC02eS9FwSt8etdw9WcRbOwKF9rCQ" alt="Cyber Security Course Image">
+            <h3>Cyber Security</h3>
+            <p>Understand the fundamentals of cyber security.</p>
+            <button onclick="window.location.href='cyber_security.html'" class="register-btn">Register</button>
+        </div>
+    
+        <div class="course-card" id="blockchainCard">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC5l5xETD4SpX3oYnz94siglSgk2lOkG_Y1hpAFoBkUNJAM6HXxMMCBixXIoDBagqtlJE&usqp=CAU" alt="Blockchain Course Image">
+            <h3>Blockchain</h3>
+            <p>Explore the world of blockchain technology.</p>
+            <button onclick="window.location.href='blockchain.html'" class="register-btn">Register</button>
+        </div>
+    
+        <div class="course-card" id="webDevelopmentCard">
+            <img src="https://www.creativeitinstitute.com/images/course/course_1663052056.jpg" alt="Web Development Course Image">
+            <h3>Web Development</h3>
+            <p>Learn the basics of web development with HTML, CSS, and JavaScript.</p>
+            <button onclick="window.location.href='webDevekopment.html'" class="register-btn">Register</button>
+        </div>
+    
+        <div class="course-card" id="cloudComputingCard">
+            <img src="https://img.freepik.com/free-vector/cloud-computing-banner-design-concept_1017-15147.jpg" alt="Cloud Computing Course Image">
+            <h3>Cloud Computing</h3>
+            <p>Learn about cloud computing and its applications.</p>
+            <button onclick="window.location.href='cloud.html'" class="register-btn">Register</button>
+        </div>
+    
+        <div class="course-card" id="dataAnalyticsCard">
+            <img src="https://www.interviewbit.com/blog/wp-content/uploads/2022/03/Machine-Learning-Courses-2048x1000.png" alt="Machine Learning Course Image">
+            <h3>Machine Learning</h3>
+            <p>Get started with machine learning concepts.</p>
+            <button onclick="window.location.href='ml.html'" class="register-btn">Register</button>
+        </div>
+    
+        <div class="course-card" id="aiCard">
+            <img src="https://www.classcentral.com/report/wp-content/uploads/2022/04/Artificial-Intelligence-Featured-Image.png" alt="Artificial Intelligence Course Image">
+            <h3>Artificial Intelligence</h3>
+            <p>Discover the principles of artificial intelligence.</p>
+            <button onclick="window.location.href='ai.html'" class="register-btn">Register</button>
+        </div>
+    
+        <div class="course-card" id="devOpsCard">
+            <img src="https://kalyanithub.com/wp-content/uploads/2024/01/devops-taining-image-2.jpg" alt="DevOps Course Image">
+            <h3>DevOps</h3>
+            <p>Learn about DevOps practices and tools.</p>
+            <button onclick="window.location.href='devops.html'" class="register-btn">Register</button>
+        </div>
+    
+        <div class="course-card" id="uiUxCard">
+            <img src="https://www.creativeitinstitute.com/images/course/course_1662637290.jpg" alt="UI/UX Course Image">
+            <h3>UI/UX</h3>
+            <p>Understand the principles of UI/UX design.</p>
+            <button onclick="window.location.href='uiux.html'" class="register-btn">Register</button>
+        </div>
+    
+        <div class="course-card" id="dataAnalyticsCard">
+            <img src="https://i.ytimg.com/vi/fWE93St-RaQ/maxresdefault.jpg" alt="Data Analytics Course Image">
+            <h3>Data Analytics</h3>
+            <p>Learn how to analyze data effectively.</p>
+            <button onclick="window.location.href='da.html'" class="register-btn">Register</button>
+        </div>
+    
+        <div class="course-card" id="deepLearningCard">
+            <img src="https://www.classcentral.com/report/wp-content/uploads/2022/04/Deep-Learning-BCG-Featured-image.png" alt="Deep Learning Course Image">
+            <h3>Deep Learning</h3>
+            <p>Explore deep learning techniques and applications.</p>
+            <button onclick="window.location.href='deeplearning.html'" class="register-btn">Register</button>
+        </div>
+    
+        <div class="course-card" id="vlsiCard">
+            <img src="https://semicontechs.com/blogs/wp-content/uploads/2024/03/VLSI-Training.jpg" alt="VLSI Course Image">
+            <h3>VLSI</h3>
+            <p>Learn about Very Large Scale Integration design.</p>
+            <button onclick="window.location.href='vlsi.html'" class="register-btn">Register</button>
+        </div>
+    
+        <div class="course-card" id="embeddedSystemsCard">
+            <img src="https://learn.viblo.asia/uploads/e/3/e371b821-3bc8-47bb-9dcc-3dbb57cd2a1e.jpg" alt="Embedded Systems Course Image">
+            <h3>Embedded Systems</h3>
+            <p>Understand the fundamentals of embedded systems.</p>
+            <button onclick="window.location.href='embedded.html'" class="register-btn">Register</button>
+        </div>
+    
+    </div>
+</div>
+
+<section class="about" id="blog">
+    <div class="blog-section">
+        <h1 class="blog-header">Latest Blog Posts</h1>
+            <div class="blog-container">
+                <div class="blog-post">
+                    <img src="https://www.maacindia.com/blog/wp-content/uploads/2020/05/n-study-at-home-1.jpg" alt="Online Learning" class="blog-image">
+                    <h2 class="blog-title">Why Online Learning is the Future</h2>
+                    <p class="blog-content">Online courses provide flexibility and accessibility, making education available to everyone...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+                <div class="blog-post">
+                    <img src="https://st2.depositphotos.com/1004174/7566/i/450/depositphotos_75664443-stock-photo-machine-code-languages-button-on.jpg" alt="Programming Languages" class="blog-image">
+                    <h2 class="blog-title">Top 5 Programming Languages to Learn</h2>
+                    <p class="blog-content">Python, JavaScript, and more—discover which programming languages are in demand and why...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+    </div>
+</section>
+
+<section class="about" id="about" >
+    <div class="about-section">
+        <h1 class="about-header">About Us</h1>
+        <p class="about-content">Welcome to our online course registration system. Our platform is designed to provide a seamless learning experience, offering a variety of courses to help you upskill and achieve your career goals. Whether you're a beginner or an advanced learner, we have something for everyone.</p>
+        <p class="about-content">We believe in the power of education and strive to make learning accessible to all. Our courses are crafted by industry experts, ensuring high-quality content that is both practical and engaging.</p>
+        <p class="about-content">With flexible learning schedules, interactive materials, and a supportive community, our platform empowers learners to take control of their education and grow at their own pace.</p>
+        <p class="about-content">Join us today and start your journey toward knowledge and success!</p>
+    </div>
+</section>
+
+    
+<footer class="site-footer">
+    <h1 class="brand-name">OPN</h1>
+    <p>&copy; 2025 Online Course Registration. All rights reserved.</p>
+    <p>Our platform offers a seamless way to enroll in top-quality courses and gain new skills for a brighter future. Learn from industry experts and advance your career with ease.</p>
+    <p>
+        <a href="#">Privacy Policy</a> |
+        <a href="#">Terms of Service</a> |
+        <a href="#">Contact Us</a>
+    </p>
+    <div class="social-links">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+</footer>
+
+
+
+
+    <!-- Login Modal -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h3>Login</h3>
+            <input type="text" id="studentName" placeholder="Student Name" required>
+            <input type="text" id="phoneNumber" placeholder="Phone Number" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="text" id="branch" placeholder="Branch Name" required>
+            <input type="text" id="college" placeholder="College Name" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+            <button onclick="registerUserDetails()">Submit</button>
+            <!-- <button class="cancel-btn" onclick="closeModal()">Cancel</button> -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>

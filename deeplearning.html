@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Learning Course</title>
+    <link rel="stylesheet" href="CoursePage.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://www.classcentral.com/report/wp-content/uploads/2022/04/Deep-Learning-BCG-Featured-image.png"  class="course-image">
+        <h1 class="course-title">Learn Deep Learning</h1>
+        <p class="course-description">Deep Learning is a subset of Machine Learning that uses artificial neural networks to process data, identify patterns, and make intelligent decisions. Inspired by the structure of the human brain, deep learning models consist of multiple layers of neurons that extract high-level features from raw data. It is widely used in fields such as image recognition, natural language processing, and autonomous systems.</p>
+        <p class="course-description">Deep learning architectures include Convolutional Neural Networks (CNNs) for image processing, Recurrent Neural Networks (RNNs) for sequential data, and Transformers for NLP tasks. Advanced models like Generative Adversarial Networks (GANs) and Deep Reinforcement Learning have enabled breakthroughs in artificial intelligence, including realistic image generation and self-learning AI agents.</p>
+        <p class="course-description">Popular deep learning frameworks such as TensorFlow and PyTorch provide robust tools for building and training neural networks. Key processes include data preprocessing, model training, hyperparameter tuning, and performance evaluation using metrics like accuracy, precision, and recall. GPU acceleration plays a crucial role in optimizing deep learning computations.</p>
+        <p class="course-description">With rapid advancements in AI, deep learning is revolutionizing industries like healthcare, finance, and robotics. From self-driving cars to voice assistants, deep learning is shaping the future of technology. Professionals skilled in neural networks, data science, and AI engineering have vast career opportunities in research and industry applications.</p>
+
+        <div class="syllabus">
+            <h2 class="syllabus-title">Complete Deep Learning Syllabus</h2>
+            <ul class="syllabus-list">
+                <li class="syllabus-item">Introduction to Deep Learning and Neural Networks</li>
+                <li class="syllabus-item">Mathematics for Deep Learning (Linear Algebra, Calculus, Probability)</li>
+                <li class="syllabus-item">Feedforward Neural Networks and Backpropagation</li>
+                <li class="syllabus-item">Convolutional Neural Networks (CNNs) for Image Processing</li>
+                <li class="syllabus-item">Recurrent Neural Networks (RNNs) and Long Short-Term Memory (LSTM)</li>
+                <li class="syllabus-item">Transformers and Attention Mechanisms in NLP</li>
+                <li class="syllabus-item">Autoencoders and Generative Adversarial Networks (GANs)</li>
+                <li class="syllabus-item">Hyperparameter Tuning, Optimization, and Model Evaluation</li>
+                <li class="syllabus-item">Deep Learning Frameworks: TensorFlow and PyTorch</li>
+                <li class="syllabus-item">Applications of Deep Learning in Real-World Scenarios</li>
+
+            </ul>
+        </div>
+        
+        <button id="register-btn" class="btn" onclick="showRegistrationForm()">Register</button>
+        
+        <div id="registration-form">
+            <h3>Register for the Course</h3>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+            <button class="btn" onclick="submitRegistration()">Submit</button>
+        </div>
+        
+        <a href="https://youtube.com/playlist?list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO&si=PUVytKOs_5jUzVxh" id="start-course" class="btn">Start Course</a>
+    </div>
+
+    <script src="CoursePage.js"></script>
+</body>
+</html>

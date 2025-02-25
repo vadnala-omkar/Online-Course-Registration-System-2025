@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VLSI Course</title>
+    <link rel="stylesheet" href="CoursePage.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://semicontechs.com/blogs/wp-content/uploads/2024/03/VLSI-Training.jpg"  class="course-image">
+        <h1 class="course-title">Learn VLSI</h1>
+        <p class="course-description">VLSI (Very Large Scale Integration) is a technology used in the design and manufacturing of integrated circuits (ICs) by combining millions to billions of transistors onto a single chip. It enables the development of compact, high-performance electronic devices such as microprocessors, memory chips, and system-on-chip (SoC) solutions. VLSI plays a crucial role in modern computing, telecommunications, and embedded systems.</p>
+        <p class="course-description">The VLSI design process involves several stages, including system specification, logic design, circuit design, verification, and fabrication. Engineers use Hardware Description Languages (HDLs) like Verilog and VHDL to design and simulate digital circuits. Computer-aided design (CAD) tools help in layout design, synthesis, and testing before manufacturing.</p>
+        <p class="course-description">VLSI is broadly classified into digital and analog design. Digital VLSI focuses on designing processors, memory units, and digital circuits, while Analog VLSI deals with amplifiers, sensors, and RF circuits. Advanced VLSI techniques such as low-power design, high-speed circuits, and 3D ICs are improving the efficiency and functionality of electronic systems.</p>
+        <p class="course-description">With the rapid growth of semiconductor technology, VLSI continues to drive innovation in artificial intelligence, IoT, automotive electronics, and mobile computing. The demand for VLSI professionals with expertise in circuit design, semiconductor fabrication, and ASIC/FPGA development is rising, making it a promising field for engineers and researchers.</p>
+
+        <div class="syllabus">
+            <h2 class="syllabus-title">Complete VLSI Syllabus</h2>
+            <ul class="syllabus-list">
+                <li class="syllabus-item">Introduction to VLSI and Semiconductor Technology</li>
+                <li class="syllabus-item">Digital Logic Design and Boolean Algebra</li>
+                <li class="syllabus-item">Hardware Description Languages: Verilog and VHDL</li>
+                <li class="syllabus-item">Combinational and Sequential Circuit Design</li>
+                <li class="syllabus-item">CMOS Technology and Low-Power VLSI Design</li>
+                <li class="syllabus-item">ASIC (Application-Specific Integrated Circuit) and FPGA Design</li>
+                <li class="syllabus-item">VLSI Testing, Verification, and Simulation</li>
+                <li class="syllabus-item">Analog and Mixed-Signal Circuit Design</li>
+                <li class="syllabus-item">Memory Design and Embedded Systems</li>
+                <li class="syllabus-item">Recent Trends in VLSI: 3D ICs, AI Chips, and Quantum Computing</li>
+
+            </ul>
+        </div>
+        
+        <button id="register-btn" class="btn" onclick="showRegistrationForm()">Register</button>
+        
+        <div id="registration-form">
+            <h3>Register for the Course</h3>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+            <button class="btn" onclick="submitRegistration()">Submit</button>
+        </div>
+        
+        <a href="https://youtube.com/playlist?list=PLgwJf8NK-2e6au9bX9P_bA3ywxqigCsaC&si=Ny3Nl36waxrEO20B" id="start-course" class="btn">Start Course</a>
+    </div>
+
+    <script src="CoursePage.js"></script>
+</body>
+</html>
